@@ -1,4 +1,69 @@
 /*This contains the styles for this project*/
 body{
-	font-size: 0;
+	margin: 0;
+	font-size: 87.5%;
+	font-family: helvetica, Arial times new roman sans;
+	clear: both;
 }
+
+
+.maindiv{
+	display: block;
+	width: 100%;
+	background-color: #666;
+
+}
+
+.headerlogo{
+	width: 30%;
+	height: 0 auto;
+	display: inline;
+	float: left;
+}
+
+.headerlogo img {
+	height: 15%;
+	width: 15%;
+	padding: 5px 5px;
+	margin-left: 5%;
+}
+
+.navbar{
+	width: 70%;
+	/*float: right;*/
+	display: inline;
+	text-align: right;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 0 2%;
+}
+
+.navbar ul li {
+	float: left;
+	display: inline-block;
+	padding: 10px 25px 10px 25px;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.navbar a:link, .navbar a:visited{
+	color: white;
+}
+
+.navbar a:hover{
+	background-color: orange;
+	color: white !important;
+	display: inline-block;
+	text-shadow: none;
+}
+
+.active {
+	color: black;
+	font-weight: bold;
+}
+
+
