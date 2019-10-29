@@ -1,0 +1,13 @@
+1. IMPLEMENTING SEARCH BOTTON:   https://codepen.io/bowersrd/pen/dwXLba
+
+2. RESPONSIVE NAVBAR:  https://codepen.io/mutedblues/pen/MmPNPG
+
+3. COMPLETE NAVBAR WITH MENU-TOGGLE:   https://codepen.io/kotasowa/pen/zNreoN
+
+4. HAMBURGER RESPONSIVE MENU:   https://codepen.io/TurboPoet94/pen/mwmVjY 
+
+5.  PURELY CSS MENU DROPDOWN:  https://codepen.io/andornagy/pen/RNeydj
+
+6.  RESPONSIVE NAVBAR WITH HAMBURGER MENU:    https://codepen.io/celes/pen/WjWoVp
+
+https://codepen.io/torbencolding/pen/OPwwOg

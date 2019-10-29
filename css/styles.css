@@ -2,8 +2,7 @@
 body{
 	margin: 0;
 	font-size: 87.5%;
-	font-family: helvetica, Arial times new roman sans;
-	clear: both;
+	font-family: Helvetica, sans-serif;
 }
 
 
@@ -43,7 +42,7 @@ body{
 .navbar ul li {
 	float: left;
 	display: inline-block;
-	padding: 10px 25px 10px 25px;
+	padding: 10px 15px 10px 25px;
 }
 
 a {
@@ -66,4 +65,17 @@ a {
 	font-weight: bold;
 }
 
+.navloginbtn{
+	background-color: white;
+	padding: 10% 20%;
+	color: black;
+	font-weight: bold;
+}
+
+.navregisterbtn {
+	background-color: red;
+	padding: 10% 25%;
+	color: black;
+	font-weight: bold;
+}
 
