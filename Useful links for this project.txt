@@ -11,3 +11,7 @@
 6.  RESPONSIVE NAVBAR WITH HAMBURGER MENU:    https://codepen.io/celes/pen/WjWoVp
 
 https://codepen.io/torbencolding/pen/OPwwOg
+
+7.   RESPONSIVE SEARCH BAR:  https://codepen.io/912lab/pen/LsplC
+
+8. How to add a top browser favicon:  <link rel="icon" href="img/icons/miraicon.png" type="image/ico" sizes="16x16">
