@@ -1,88 +1,18 @@
 /*This contains the styles for this project*/
 body{
-	margin: 0;
-	font-size: 87.5%;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
-
-.maindiv{
-	display: block;
-	width: 100%;
-	background-color: #666;
-
+/*****************Css for the navbar logo*********************/
+img{
+	height: 70px;
+	width: 70px;
+	padding: 0px;
 }
+/*****************Css for the navbar logo*********************/
 
-.headerlogo{
-	width: 30%;
-	height: 0 auto;
-	display: inline;
-	float: left;
-}
 
-.headerlogo img {
-	height: 18%;
-	width: 18%;
-	padding: 10px 10px;
-	margin-left: 5%;
-}
-
-.navbar{
-	width: 70%;
-	/*float: right;*/
-	display: inline;
-	text-align: right;
-}
-
-.navbar ul {
-	list-style: none;
-	margin: 0;
-}
-
-.navbar ul li {
-	float: left;
-	display: inline-block;
-	padding: 10px 12px 10px 23px;
-}
-
-a {
-	text-decoration: none !important;
-}
-
-.navbar a:link, .navbar a:visited{
-	color: white;
-}
-
-.navbar a:hover{
-	background-color: orange;
-	color: white !important;
-	display: inline-block;
-	text-shadow: none;
-}
-
-.active {
-	color: black;
-	font-weight: bold;
-}
-
-.navloginbtn{
-	background-color: white;
-	padding: 10% 15%;
-	color: black;
-	font-weight: bold;
-}
-
-.navregisterbtn {
-	background-color: red;
-	padding: 10% 20%;
-	color: black;
-	font-weight: bold;
-}
-
-/********CSS FOR SEARCH BAR ****************/
-input {
-	outline: none;
-}
+/***************CSS  FOR THE VAVBAR SEARCH BAR*************/
 input[type=search] {
 	-webkit-appearance: textfield;
 	-webkit-box-sizing: content-box;
@@ -94,12 +24,11 @@ input::-webkit-search-cancel-button {
 	display: none; 
 }
 
-
 input[type=search] {
 	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
 	border: solid 1px #ccc;
-	padding: 5px 10px 9px 30px;
-	width: 55px;
+	padding: 5px 10px 5px 32px;
+	width: 50px;
 	
 	-webkit-border-radius: 10em;
 	-moz-border-radius: 10em;
@@ -108,15 +37,6 @@ input[type=search] {
 	-webkit-transition: all .5s;
 	-moz-transition: all .5s;
 	transition: all .5s;
-}
-input[type=search]:focus {
-	width: 130px;
-	background-color: #fff;
-	border-color: #66CC75;
-	
-	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	box-shadow: 0 0 5px rgba(109,207,246,.5);
 }
 
 
@@ -127,16 +47,32 @@ input::-webkit-input-placeholder {
 	color: #999;
 }
 
-.search{
-	display: inline-block;
-	position: absolute;
+/* Demo 2 */
+#small-search input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#small-search input[type=search]:hover {
+	background-color: #fff;
+}
+#small-search input[type=search]:focus {
+	width: 250px;
+	padding: 8px 10px 8px 32px;
+	color: #000;
+	background-color: #fff;
+	border-color: #66CC75;
+	cursor: auto;
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+#small-search input:-moz-placeholder {
+	color: transparent;
+}
+#small-search input::-webkit-input-placeholder {
+	color: transparent;
 }
 
-@media screen and (max-width: 768px){
-	.headerlogo img {
-	height: 30%;
-	width: 30%;
-	padding: 10px 10px;
-	margin-left: 5%;
-}
-}
+/***************END OF CSS  FOR THE VAVBAR SEARCH BAR*************/

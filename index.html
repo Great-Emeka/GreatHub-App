@@ -4,36 +4,85 @@
  	<title>GreatHub Tech</title>
  	<!-- <img src="images/ghnavicon.png" alt="navicon"> -->
     <meta charset='utf-8'>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no'>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/aos.css">
 </head>
 
 <header>
-	<!-- <div class="row"> -->
-	<div class="maindiv" id="navbarcontainer">
-			<div class="headerlogo" id="logo">
-				<a href="#"><img src="images/ghnavicon.png" alt="navicon"></a>
-			</div>
+	<div class="container-fluid mx-0">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand py-1" href="#"><img src="images/ghnavicon.png" alt="Greathub logo">GREAT-HUB</a>
 
-			<div class="navbar">
-				<ul class="navbaritems" id="navbaritems">
-				<li> <a class="active" href="#">Home</a></li>
-				<li><a href="#">Categories</a></li>
-				<li><a href="#">Courses</a></li>
-				<li><a href="#">About US</a></li>
-				<li><a href="#">Forums</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#"><span class="navloginbtn">Login</a></span></li>
-				<li><a href="#"><span class="navregisterbtn">SignUp</a></span></li>
-				</ul>
-				<input type="search"placeholder="Search" title="search courses, forums, and Categories">
-		</div>
+				<!--For Toggling -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+				    <span class="navbar-toggler-icon"></span>
+				</button>
+				<!--End of toggling -->
 
-	</div>
-	<!-- </div> -->
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+
+						<li class="nav-item dropdown">
+					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          Categories </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					          <a class="dropdown-item" href="#">Web Development</a>
+					          <a class="dropdown-item" href="#">Andriod Development</a>
+					          <a class="dropdown-item" href="#">UI/UX</a>
+					          <a class="dropdown-item" href="#">IOT</a>
+					          <a class="dropdown-item" href="#">Devops</a>
+					          <a class="dropdown-item" href="#">Front end development</a>
+					        </div>
+     					 </li>
+
+						<li class="nav-item dropdown">
+					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          Forums </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					          <a class="dropdown-item" href="#">Web Development</a>
+					          <a class="dropdown-item" href="#">Andriod Development</a>
+					          <a class="dropdown-item" href="#">UI/UX</a>
+					          <a class="dropdown-item" href="#">Devops</a>
+					          <a class="dropdown-item" href="#">Front end development</a>
+					          <a class="dropdown-item" href="#">Professionals developers</a>
+					          <a class="dropdown-item" href="#">junior developers</a>
+					          <a class="dropdown-item" href="#">Amatures</a>
+					        </div>
+					    </li>
+
+					    <li class="nav-item">
+							<a class="nav-link" href="#">About Us</a>
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="#">Blog</a>
+						</li>
+
+						<li class="nav-item">
+							<button class="btn btn-outline-dark my-2 my-sm-0 bg-light" type="submit">Login</button>
+						</li>
+
+						<li class="nav-item">
+							<button class="btn btn-outline-light my-2 my-sm-0 bg-danger" type="submit">Sign Up</button>
+						</li>
+
+						 <form id="small-search">
+						    <input type="search" placeholder="Search">
+					  </form>
+
+					</ul><!-- End of unordered list -->
+				</div>
+	
+			</nav><!-- End of navbar -->
+
+	</div> <!-- End of Header Container -->
 
       
 </header>
@@ -55,21 +104,17 @@
 
 
 <!-- Scripts -->
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<!-- AOS Libraries -->
-<script src="js/aos.js"></script>
-
-<!-- Sticky -->
-<script src="js/jquery.sticky.js"></script>
+	<!-- AOS Libraries -->
+	<script src="js/aos.js"></script>
 
 </body>
 
