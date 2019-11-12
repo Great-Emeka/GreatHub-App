@@ -80,6 +80,7 @@ input::-webkit-input-placeholder {
 	padding-left: 10px;
 	color: transparent;
 	cursor: pointer;
+	outline: none;
 }
 #small-search input[type=search]:hover {
 	background-color: #fff;
