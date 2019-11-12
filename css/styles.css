@@ -1,7 +1,9 @@
 /*This contains the styles for this project*/
 html, body{
-	font-family: 'Raleway', Helvetica, sans-serif;
+	background: #FFF;
+    font-family: 'Poppins', sans-serif;
 	margin: 0;
+	padding: 0;
 	height: 100%;
 	width: 100%;
 	color: #222;
@@ -104,3 +106,88 @@ input::-webkit-input-placeholder {
 }
 
 /***************END OF CSS  FOR THE VAVBAR SEARCH BAR*************/
+
+
+/***************LANDING PAGE BANNER*************/
+/* banner */
+.banner_w3lspvt {
+    padding: 2vw 0;
+    z-index: 0;
+    width: 100%;
+}
+
+}
+.w3ls_banner_txt {
+    padding-top: 4vw;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+/* inner page banner */
+.banner_w3lspvt-2 {
+    background: url(images/banner2.png) no-repeat top !important;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.img-fluid {
+	height: 100%;
+	width: 130vw;
+
+}
+
+
+/* button style */
+.button-style {
+    padding: 14px 30px;
+    border: none;
+    color: #fff;
+    margin-bottom: 4px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-shadow: inherit;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #05b993;
+}
+
+.button-style:hover {
+    color: #fff;
+}
+
+
+.my_banner_txt p {
+    font-weight: 400;
+    color: #000;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    padding-right: 1px;
+}
+
+.my_banner_txt {
+        padding-top: 3vw;
+    }
+p.text-sty-banner {
+    font-size: 1.2rem;
+    color: #05B993;
+    max-width: 700px;
+    margin: 15px 0;
+    padding-right: 0;
+}
+
+
+h3.my_pvt-title pre {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #05B993 !important;
+}
+/***************END OF LANDING PAGE BANNER*************/
