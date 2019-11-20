@@ -27,7 +27,7 @@ html, body{
 }
 /*****************styling the navbar items*********************/
 .navbar{
-	padding: .8rem;
+	padding: .7rem;
 }
 
 .navbar-nav li{
@@ -40,7 +40,7 @@ html, body{
 /*****************end of styling the navbar items *********************/
 
 .navbar-brand{
-	font-size: 200% !important;
+	font-size: 150% !important;
 	font-weight: 500px;
 	text-shadow: 1px 2px 2px #e7d9eb !important;
 }
@@ -118,6 +118,7 @@ input::-webkit-input-placeholder {
     padding: 2vw 0;
     z-index: 0;
     width: 100%;
+    height: 100vh;
 }
 
 }
