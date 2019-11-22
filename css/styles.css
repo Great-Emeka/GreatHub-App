@@ -28,10 +28,11 @@ html, body{
 /*****************styling the navbar items*********************/
 .navbar{
 	padding: .7rem;
+	background-color: #EAF7F3 !important;
 }
 
 .navbar-nav li{
-	padding-right: 20px;
+	padding-right: 15px;
 }
 
 .nav-link{
@@ -41,7 +42,7 @@ html, body{
 
 .navbar-brand{
 	font-size: 150% !important;
-	font-weight: 500px;
+	font-weight: 450px;
 	text-shadow: 1px 2px 2px #e7d9eb !important;
 }
 
@@ -102,7 +103,7 @@ input::-webkit-input-placeholder {
 	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
 	box-shadow: 0 0 5px rgba(109,207,246,.5);
 }
-#small-search input:-moz-placeholder {
+#small-search input::-moz-placeholder {
 	color: transparent;
 }
 #small-search input::-webkit-input-placeholder {
@@ -119,9 +120,10 @@ input::-webkit-input-placeholder {
     z-index: 0;
     width: 100%;
     height: 100vh;
+    padding-top: 11%;
+    background-color: #EAF7F3 !important;
 }
 
-}
 .w3ls_banner_txt {
     padding-top: 4vw;
 }
@@ -147,11 +149,70 @@ input::-webkit-input-placeholder {
 }
 
 
-@media only screen and (max-width: 740px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.midd-w3{
+  	margin-top: 35% !important;
+  	padding-top: 8%;
+  }
+
+  .button-style-2{
+  	margin-bottom: 20% !important;
+  }
+
+  .banner_w3lspvt{
+  	padding-top: 25%;
+  }
+} 
+
+
+/*Media Responsiveness for phones*/
+@media only screen and (max-width: 768px) {
   .img_rocketed {
     display: none;
   }
+
+  body{
+  	overflow-x: hidden;
+  }
+
+  .midd-w3{
+  	margin-top: 35% !important;
+  	padding-top: 8%;
+  }
+
+  .button-style-2{
+  	margin-bottom: 20% !important;
+  }
+
+  .banner_w3lspvt{
+  	padding-top: 25%;
+  }
 }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.midd-w3{
+  	margin-top: 5% !important;
+  }
+
+#landingbanner{
+	width: 100%;
+    height: 65vh;
+    padding-top: 15%;
+    padding-bottom: 0%;
+    margin-bottom: 25%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	#landingbanner{
+		margin-bottom: 15%;
+	}
+} 
+
+
 
 /* button style */
 .button-style {
@@ -202,8 +263,9 @@ p.text-sty-banner {
 
 
 h3.my_pvt-title pre {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 600;
     color: #05B993 !important;
 }
 /***************END OF LANDING PAGE BANNER*************/
+
