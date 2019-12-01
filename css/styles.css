@@ -1,34 +1,41 @@
 /*This contains the styles for this project*/
-html, body{
-	background: #FFF;
-    font-family: 'Poppins', sans-serif;
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%
-	color: #222;
 
+html, body{
+  margin: 0 !important;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  max-height: 100%;
+	background: #FFF;
+  font-family: 'Poppins', sans-serif;
+	color: #222;
 }
 
-  body {
-         overflow-x: hidden;
-       }
+#sitewrap{
+  overflow-x: hidden !important;
+  min-width: 100%;
+}
 
 /*****************Css for the navbar logo*********************/
 #logo{
 	height: 70px;
 	width: 70px;
-	margin-right: 4px; 
+	margin-right: 2px; 
 }
 /*****************End of Css for the navbar logo*********************/
 
 .navbar ul li a:hover{
 	color:  #ff798d !important;
 }
+
+
 /*****************styling the navbar items*********************/
 .navbar{
 	padding: .7rem;
+  width: 100% !important;
 	background-color: #EAF7F3 !important;
+
 }
 
 .navbar-nav li{
@@ -122,6 +129,7 @@ input::-webkit-input-placeholder {
     height: 100vh;
     padding-top: 11%;
     background-color: #EAF7F3 !important;
+    /*overflow-x: hidden;*/
 }
 
 .w3ls_banner_txt {
@@ -148,23 +156,10 @@ input::-webkit-input-placeholder {
 
 }
 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-	.midd-w3{
-  	margin-top: 35% !important;
-  	padding-top: 8%;
-  }
-
-  .button-style-2{
-  	margin-bottom: 20% !important;
-  }
-
-  .banner_w3lspvt{
-  	padding-top: 25%;
-  }
-} 
-
+.midd-w3 {
+    margin-top: 90% !important;
+    padding-top: 30% !important;
+}
 
 /*Media Responsiveness for phones*/
 @media only screen and (max-width: 768px) {
@@ -172,13 +167,9 @@ input::-webkit-input-placeholder {
     display: none;
   }
 
-  body{
-  	overflow-x: hidden;
-  }
-
-  .midd-w3{
-  	margin-top: 35% !important;
-  	padding-top: 8%;
+  .midd-w3 {
+  	margin-top: 5% !important;
+  	padding-top: 5%;
   }
 
   .button-style-2{
@@ -186,36 +177,93 @@ input::-webkit-input-placeholder {
   }
 
   .banner_w3lspvt{
-  	padding-top: 25%;
+  	padding-top: 24%;
   }
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+  .midd-w3{
+    margin-top: 6% !important;
+    padding-top: 0% !important;
+  }
+
+  .button-style-2{
+    margin-bottom: 20% !important;
+  }
+
+  .banner_w3lspvt{
+    padding-top: 25% !important;
+
+  }
+
+  #landingbanner{
+    width: 100% !important;
+    height: 100vh !important;
+    padding-top: 7%!important;
+    padding-bottom: 0% !important;
+    margin-bottom: 0% !important;
+  }
+
+  .my_pvt-title{
+    padding-top: 8% !important;
+  }
+} 
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 700px) and (orientation: landscape) {
+  .midd-w3{
+    margin-top: 38% !important;
+    padding-top: 40% !important;
+  }
+
+  .button-style-2{
+    margin-bottom: 20% !important;
+  }
+
+  .banner_w3lspvt{
+    padding-top: 25% !important;
+  }
+
+  #landingbanner{
+    width: 100%;
+    height: 100vh !important;
+    padding-top: 11% !important;
+    padding-bottom: 0% !important;
+    margin-bottom: 4% !important;
+  }
+} 
+
+
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
 	.midd-w3{
-  	margin-top: 5% !important;
+  	margin-top: 1% !important;
+    padding-top: 0 !important;
   }
 
 #landingbanner{
 	width: 100%;
-    height: 65vh;
-    padding-top: 15%;
+    height: 100vh;
+    padding-top: 11%;
     padding-bottom: 0%;
-    margin-bottom: 25%;
+    margin-bottom: 10%;
 	}
-}
+}*/
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-/*	#landingbanner{
-		margin-bottom: 20%;
-	}
-
 	#landingbanner{
-  	padding-top: 8%;
+    width: 100%;
+    height: 100vh !important;
+  	padding-top: 9%;
     padding-bottom: 0%;
+    margin-bottom: 25%;
   }
-} */
+} 
 
 
 
@@ -274,3 +322,124 @@ h3.my_pvt-title pre {
 }
 /***************END OF LANDING PAGE BANNER*************/
 
+
+/***************FOOTER STYLING*************/
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top:100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 8px;
+  color: black !important;
+  border-top: 1px solid #FFFFFF;
+  background-color: #EAF7F3 !important
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+
+
+/***************END OF FOOTER STYLES*************/
