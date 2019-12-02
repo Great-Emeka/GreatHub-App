@@ -19,3 +19,5 @@ https://codepen.io/torbencolding/pen/OPwwOg
 9.  BOOTSTRAP NAV TUTORIAL:  https://coursetro.com/posts/code/130/Learn-Bootstrap-4-Final-in-2018-with-our-Free-Crash-Course
 
 10. BOOTSNIPP, where you can get template source codes: https://bootsnipp.com/snippets/xrARR
+
+11. How to Create a PHP/MySQL Powered Forum From Scratch: https://code.tutsplus.com/tutorials/how-to-create-a-phpmysql-powered-forum-from-scratch--net-10188
