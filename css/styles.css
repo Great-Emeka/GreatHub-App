@@ -210,9 +210,6 @@ input::-webkit-input-placeholder {
   }
 } 
 
-
-
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-width: 700px) and (orientation: landscape) {
   .midd-w3{
