@@ -1,4 +1,4 @@
-1. IMPLEMENTING SEARCH BOTTON:   https://codepen.io/bowersrd/pen/dwXLba
+1. SEARCH BOTTON:   https://codepen.io/bowersrd/pen/dwXLba
 
 2. RESPONSIVE NAVBAR:  https://codepen.io/mutedblues/pen/MmPNPG
 
